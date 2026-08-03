@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Majaha Moyo — Systems Engineer &amp; Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="board-bg" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top"><span class="brand-mark"><img src="profile.jpg" alt="Majaha Moyo"></span><span class="brand-text">Majaha Moyo</span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about"><span class="pin"></span>About Me</a>
+      <a href="#stack"><span class="pin"></span>Stack</a>
+      <a href="#experience"><span class="pin"></span>Experience</a>
+      <a href="#projects"><span class="pin"></span>Projects</a>
+      <a href="#education"><span class="pin"></span>Education</a>
+      <a href="#contact" class="nav-cta"><span class="pin"></span>Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+
+      <h1>Engineering the systems that connect <span class="accent-cyan">software</span> to <span class="accent-copper">hardware</span>.</h1>
+      <p class="hero-lede">Computer Systems Engineer specialising in full-stack development and systems integration. I build Flask &amp; JavaScript backends by day and have spent years wiring the networks, security systems, and embedded circuits those backends run on.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View the work</a>
+        <a href="Majaha_Moyo_CV.pdf" download="Majaha_Moyo_CV.pdf" class="btn btn-ghost">Download CV</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="hero-diagram" role="img" aria-label="Portrait of Majaha Moyo">
+      <div class="portrait">
+        <img src="profile.jpg" alt="Portrait of Majaha Moyo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section wrap reveal">
+    <h2 class="section-title"><span class="tag-index">01</span> About Me</h2>
+    <p class="section-lede">Transform ideas into scalable cloud solutions.</p>
+    <div class="about-bio">
+      <p>I'm a software engineer with a passion for building scalable, user-focused applications that solve real-world problems. I enjoy turning ideas into reliable software and continuously learning new technologies to improve my skills. My primary focus is backend and full-stack development using Python, Flask, PostgreSQL, HTMX, Bulma CSS, Docker, and Azure Blob Storage.</p>
+      <p>One of my key achievements is developing a Software-as-a-Service (SaaS) business management application from the ground up. The platform includes features such as user authentication, project and work item management, cloud file storage, REST API integration, and automated background processes. This project strengthened my expertise in full-stack development, database design, cloud technologies, and building scalable software solutions.</p>
+      <p>With a background in Computer Systems Engineering, I also have experience in Linux, networking, embedded systems, robotics, and automation. I am passionate about creating clean, maintainable code and developing innovative cloud-based solutions that deliver real value to users and businesses.</p>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack" class="section wrap reveal">
+    <h2 class="section-title"><span class="tag-index">02</span> Stack</h2>
+    <p class="section-lede">Four tracks feed the same practice — grouped the way they sit on the resume, not alphabetized for show.</p>
+
+    <div class="stack-grid">
+      <div class="stack-card" data-accent="cyan">
+        <h3>Software Development</h3>
+        <div class="stack-scroll">
+          <div class="chip-group">
+            <span class="chip-label">Backend</span>
+            <ul class="chips">
+              <li>Python 3.12</li><li>Flask 3.1</li><li>SQLAlchemy 2.0</li><li>Flask-SQLAlchemy</li>
+              <li>Flask-Migrate (Alembic)</li><li>Flask-Login</li><li>Flask-APScheduler</li><li>Jinja2</li>
+            </ul>
+          </div>
+          <div class="chip-group">
+            <span class="chip-label">Frontend</span>
+            <ul class="chips">
+              <li>HTML5</li><li>Bulma CSS</li><li>HTMX 2.0</li><li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="chip-group">
+            <span class="chip-label">Database &amp; Storage</span>
+            <ul class="chips">
+              <li>PostgreSQL</li><li>Azure Blob Storage</li><li>Azurite</li>
+            </ul>
+          </div>
+          <div class="chip-group">
+            <span class="chip-label">DevOps &amp; Tooling</span>
+            <ul class="chips">
+              <li>Docker</li><li>Git &amp; GitHub</li>
+            </ul>
+          </div>
+          <div class="chip-group">
+            <span class="chip-label">APIs &amp; Integrations</span>
+            <ul class="chips">
+              <li>Plane.so REST API</li><li>Plane Webhooks</li><li>REST APIs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="stack-card" data-accent="copper">
+        <h3>Infrastructure &amp; Networking</h3>
+        <ul class="chips">
+          <li>TCP/IP</li><li>Routing &amp; Switching</li><li>Linux Administration</li>
+          <li>Enterprise Networking</li><li>PABX &amp; VoIP</li><li>Cloud — NaaS / IaaS / DaaS</li>
+        </ul>
+      </div>
+      <div class="stack-card" data-accent="cyan">
+        <h3>Security &amp; ICT Systems</h3>
+        <ul class="chips">
+          <li>CCTV Systems</li><li>Video Management</li><li>Access Control</li>
+          <li>Intrusion Detection</li><li>Cyber Security</li><li>Data Protection</li>
+        </ul>
+      </div>
+      <div class="stack-card" data-accent="copper">
+        <h3>Engineering &amp; Embedded</h3>
+        <ul class="chips">
+          <li>PLC Programming</li><li>Robotics &amp; Automation (ROS)</li>
+          <li>Digital Electronics</li><li>Arduino</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section wrap reveal">
+    <h2 class="section-title"><span class="tag-index">03</span> Experience</h2>
+    <p class="section-lede">Ordered the way a signal trace runs — most recent first, current role live at the top.</p>
+
+    <ol class="timeline">
+      <li class="timeline-item">
+        <div class="timeline-marker live"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Software Developer Intern</h3>
+            <span class="timeline-org">Firmlinx (Pty) Ltd</span>
+            <span class="timeline-status">current</span>
+          </div>
+          <ul>
+            <li>Integrate frontend and backend systems across internal and external platforms using Python (Flask) and JavaScript.</li>
+            <li>Develop, maintain, and optimize APIs for seamless data flow between services and third-party applications.</li>
+            <li>Collaborate cross-functionally to design scalable architectures and troubleshoot integration issues.</li>
+            <li>Ensure secure communication between systems while improving reliability and user experience.</li>
+            <li>Contribute to business applications covering ticket management, integrations, reporting, notifications, and workflow automation.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>IT Technician Intern</h3>
+            <span class="timeline-org">Mctrends Systems</span>
+          </div>
+          <ul>
+            <li>Implemented and maintained integrated security and ICT infrastructure solutions.</li>
+            <li>Worked with advanced CCTV, video management, perimeter protection, access control, and intrusion detection systems.</li>
+            <li>Supported remote/offsite monitoring and security systems integration projects.</li>
+            <li>Assisted with enterprise networking, server and data centre infrastructure, cyber security, and data protection initiatives.</li>
+            <li>Supported PABX &amp; VoIP deployments and Cloud Services (NaaS, IaaS, DaaS).</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>Auto Electrical Assistant</h3>
+            <span class="timeline-org">Wellzz Auto</span>
+          </div>
+          <ul>
+            <li>Diagnosed and repaired electrical issues in motor vehicles.</li>
+            <li>Performed battery testing, alternator and starter motor repairs, and wiring installations.</li>
+            <li>Used diagnostic tools and software for vehicle fault-finding.</li>
+            <li>Gained practical grounding in electrical systems, teamwork, and workshop operations.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section wrap reveal">
+    <h2 class="section-title"><span class="tag-index">04</span> Projects</h2>
+    <p class="section-lede">Four builds across the stack: embedded, web, IoT, and full-stack.</p>
+
+    <div class="project-grid">
+      <article class="project-card" data-accent="copper">
+        <div class="project-top">
+          <span class="project-kicker">Final Year Project · Embedded</span>
+          <h3>Smart Locker Using Facial Recognition</h3>
+        </div>
+        <p>A secure locker system built around facial-recognition access control, pairing camera-based authentication with embedded hardware for verification and access management.</p>
+        <ul class="chips small">
+          <li>Computer Vision</li><li>Embedded Systems</li><li>Access Control</li><li>Hardware/Software Integration</li><li>Raspberry Pi</li>
+        </ul>
+      </article>
+
+      <article class="project-card" data-accent="cyan">
+        <div class="project-top">
+          <span class="project-kicker">Firmlinx (Pty) Ltd · Web Platform</span>
+          <h3>Systems &amp; Integration Tracker</h3>
+        </div>
+        <p>A web-based tracker for managing systems and integrations, with backend built on Flask and SQLAlchemy, dashboards, reporting, user-assignment workflows, notifications, and file management.</p>
+        <ul class="chips small">
+          <li>Flask</li><li>SQLAlchemy</li><li>PostgreSQL</li><li>REST APIs</li><li>Docker</li><li>Git</li><li>OpenAI</li><li>Dashboards</li>
+        </ul>
+      </article>
+
+      <article class="project-card" data-accent="copper">
+        <div class="project-top">
+          <span class="project-kicker">IoT · Smart Agriculture</span>
+          <h3>Smart Irrigation with Water Level Monitoring</h3>
+        </div>
+        <p>An IoT-driven irrigation system that monitors water levels and soil conditions in real time, automating watering schedules and sending alerts to prevent over- or under-watering.</p>
+        <ul class="chips small">
+          <li>Water Level Monitoring</li><li>Embedded Systems</li><li>Arduino</li><li>Sensors</li><li>IoT</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Firebase</li>
+        </ul>
+      </article>
+
+      <article class="project-card" data-accent="cyan">
+        <div class="project-top">
+          <span class="project-kicker">Personal Project · Full-Stack Web</span>
+          <h3>Student Management System</h3>
+        </div>
+        <p>A modern system for streamlining student records, courses, attendance, and academic performance — with dashboards, search and filtering, and user authentication behind an intuitive, responsive interface.</p>
+        <ul class="chips small">
+          <li>Flask</li><li>SQLAlchemy</li><li>HTML/CSS/JS</li><li>Bootstrap</li><li>SQLite/PostgreSQL</li><li>Authentication</li><li>Dashboards</li><li>Search &amp; Filtering</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section wrap reveal">
+    <h2 class="section-title"><span class="tag-index">05</span> Education</h2>
+
+    <div class="edu-list">
+      <div class="edu-item">
+        <div class="edu-head">
+          <h3>Diploma in Computer Systems Engineering (Extended)</h3>
+          <span>Tshwane University of Technology</span>
+        </div>
+        <ul class="chips small">
+          <li>Digital Electronics &amp; Circuits</li>
+          <li>PLC Programming</li>
+          <li>Robotics &amp; Automation (ROS)</li>
+          <li>Networking — TCP/IP, Routing, Switching</li>
+          <li>Linux-based OS</li>
+          <li>C++, C#, PIC Assembler, SQL</li>
+          <li>Arduino, Proteus, Processing</li>
+        </ul>
+      </div>
+      <div class="edu-item">
+        <div class="edu-head">
+          <h3>Cambridge International AS &amp; A Levels</h3>
+          <span>British International College</span>
+        </div>
+        <ul class="chips small">
+          <li>Mathematics</li><li>Accounting</li><li>Business Studies</li><li>English</li>
+        </ul>
+      </div>
+      <div class="edu-item">
+        <div class="edu-head">
+          <h3>ZIMSEC Ordinary Level</h3>
+          <span>Thekwane High School</span>
+        </div>
+        <ul class="chips small">
+          <li>Mathematics</li><li>Computer Studies</li><li>Integrated Science</li><li>English Language</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section wrap reveal contact-section">
+    <h2 class="section-title"><span class="tag-index">06</span> Contact</h2>
+    <p class="section-lede">Open to software development, systems integration, and infrastructure roles.</p>
+
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:majahamoyo8@gmail.com">
+        <span class="contact-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+        </span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">majahamoyo8@gmail.com</span>
+      </a>
+      <a class="contact-card" href="tel:0812537034">
+        <span class="contact-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </span>
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">081 253 7034</span>
+      </a>
+      <a class="contact-card" href="https://linkedin.com/in/majaha8" target="_blank" rel="noopener">
+        <span class="contact-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/majaha8</span>
+      </a>
+      <a class="contact-card" href="https://github.com/majaha8" target="_blank" rel="noopener">
+        <span class="contact-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.82 1.1.82 2.23v3.3c0 .32.21.7.82.58A12 12 0 0 0 12 .5z"/></svg>
+        </span>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/majaha8</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer wrap">
+  <span>© <span id="year"></span> MAJAHA .J. MOYO PORTFOLIO</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
