@@ -397,6 +397,11 @@ h1{
   font-size: 13px;
   color: var(--copper);
 }
+.timeline-date{
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted-2);
+}
 .timeline-status{
   font-family: var(--font-mono);
   font-size: 11px;
